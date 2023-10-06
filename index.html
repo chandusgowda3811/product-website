@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Product Page</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">MSI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- Home Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <!-- Contact Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#buy-now">Buy Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </br>
+    <div class="container-fluid bg-dark text-light py-5" id="home">
+        <!-- ... rest of your content ... -->
+
+        <!-- Full-Screen Section with Image and Description -->
+        <div class="container-fluid bg-dark text-light py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Image (Right Side) -->
+                    <div class="col-md-6">
+                        <img src="1.jpg" alt="Image" class="img-fluid">
+                    </div>
+                    <!-- Description (Left Side) -->
+                    <div class="col-md-6">
+                        <h1 class="text-center mt-5">MSI GF63 Thin 11UC-1295IN Gaming Laptop </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </br>
+
+    <!-- Image Carousel with custom SCSS styles -->
+    <div id="productCarousel" class="carousel slide centered-carousel " data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="6.webp" alt="Image 1" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="7.webp" alt="Image 2" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="8.webp" alt="Image 3" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="9.webp" alt="Image 3" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="10.webp" alt="Image 3" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="11.webp" alt="Image 3" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="12.webp" alt="Image 3" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="13.webp" alt="Image 3" class="d-block w-100">
+            </div>
+        </div>
+        <a class="carousel-control-prev text-dark" href="#productCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon btn-lg btn-xl" aria-hidden="true"></span>
+            <span class="sr-only"><strong>Previous</strong></span>
+        </a>
+        <a class="carousel-control-next text-dark" href="#productCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon btn-lg btn-xl" aria-hidden="true"></span>
+            <span class="sr-only"><strong>Next</strong></span>
+        </a>
+
+    </div>
+
+
+    <!-- System Memory and SSD Capacity -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card bg-dark text-light">
+                    <div class="card-body">
+                        <h5 class="card-title">System Memory</h5>
+                        <p class="card-text">8 GB</p>
+                        <p class="card-text">16 GB</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card bg-dark text-light">
+                    <div class="card-body">
+                        <h5 class="card-title">SSD Capacity</h5>
+                        <p class="card-text">256 GB</p>
+                        <p class="card-text">512 GB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Highlights Section -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card bg-dark text-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Highlights</h5>
+                        <p class="card-text">15.6 Inch Full HD, 144Hz 45%NTSC IPS-Level</p>
+                        <p class="card-text">Light Laptop without Optical Disk Drive</p>
+                        <p class="card-text">Easy Payment Options</p>
+                        <p class="card-text">No cost EMI starting from ₹6,333/month</p>
+                        <p class="card-text">Cash on Delivery</p>
+                        <p class="card-text">Net banking & Credit/ Debit/ ATM card</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seller Information Section -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card bg-dark text-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Seller Information</h5>
+                        <p class="card-text">Seller: IndiFlashMart</p>
+                        <p class="card-text">4.8 (Rating)</p>
+                        <p class="card-text">7 Days Replacement Policy</p>
+                        <p class="card-text">GST invoice available</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-6">
+        <div class="row" id="home">
+            <!-- Product Description (Right Side) -->
+            <div class="col-md-12">
+                <h1>Product Description</h1>
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="1.webp" alt="Image 1" class="card-img-top image-resize">
+                            <div class="card-body">
+                                <h5 class="card-title">Powerful Performance</h5>
+                                <p class="card-text text-justify">Integrated with the NVIDIA GeForce RTX 30 Series
+                                    Laptop GPU, the MSI GF63 Thin Laptop offers optimal performance for both gamers
+                                    and creators.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="2.webp" alt="Image 2" class="card-img-top image-resize">
+                            <div class="card-body">
+                                <h5 class="card-title">Enhanced Cooling and Low-noise Operation</h5>
+                                <p class="card-text text-justify">Engineered for improved performance, this laptop
+                                    operates with reduced noise and temperature even under heavy workloads, making
+                                    it ideal for seamless integration in any setting.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="3.webp" alt="Image 3" class="card-img-top image-resize">
+                            <div class="card-body">
+                                <h5 class="card-title">Fast Refresh Rate and Smooth Display</h5>
+                                <p class="card-text text-justify">Customized and meticulously fine-tuned for gaming,
+                                    this laptop caters to the needs of passionate gamers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="4.webp" alt="Image 4" class="card-img-top image-resize">
+                            <div class="card-body">
+                                <h5 class="card-title">Hassle-free Connectivity</h5>
+                                <p class="card-text text-justify">Thanks to its comprehensive connectivity, this
+                                    laptop helps you connect your different devices with convenience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Specifications Section -->
+    <div class="container mt-3">
+        <!-- Specifications Heading Card -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card bg-dark text-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Specifications</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- General Specifications Card -->
+        <div class="row mt-3">
+            <!-- Card 1 -->
+            <div class="col-md-6">
+                <div class="card bg-light text-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">General</h5>
+                        <p class="card-text">Sales Package: Laptop, battery, power adapter, user guide</p>
+                        <p class="card-text">Model Number: GF63 Thin 11UC-1295IN</p>
+                        <p class="card-text">Part Number: 9S7-16R612-1295</p>
+                        <p class="card-text">Model Name: GF63 Thin 11UC-1295IN</p>
+                        <p class="card-text">Color: Black</p>
+                        <p class="card-text">Type: Gaming Laptop</p>
+                        <p class="card-text">Suitable For: Gaming</p>
+                        <p class="card-text">Battery Cell: 3 Cell</p>
+                        <p class="card-text">MS Office Provided: No</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Processor and Memory Features Specifications Card -->
+            <div class="col-md-6">
+                <div class="card bg-light text-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Processor and Memory Features</h5>
+                        <p class="card-text">Dedicated Graphic Memory Type: GDDR6</p>
+                        <p class="card-text">Dedicated Graphic Memory Capacity: 4 GB</p>
+                        <p class="card-text">Processor Brand: Intel</p>
+                        <p class="card-text">Processor Name: Core i5</p>
+                        <p class="card-text">Processor Generation: 11th Gen</p>
+                        <p class="card-text">SSD: Yes</p>
+                        <p class="card-text">SSD Capacity: 256 GB</p>
+                        <p class="card-text">RAM: 16 GB</p>
+                        <p class="card-text">RAM Type: DDR4</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Operating System Specification Card -->
+            <div class="row mt-3">
+                <!-- Card 1 -->
+                <div class="col-md-6">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Operating System</h5>
+                            <p class="card-text">Operating System: Windows 11 Home</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Display And Audio Features Specification Card -->
+                <div class="col-md-6">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Display And Audio Features</h5>
+                            <p class="card-text">Screen Resolution: 1920 x 1080 Pixel</p>
+                            <p class="card-text">Screen Type: Full HD, 144Hz 45% NTSC IPS-Level</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Connectivity Features Specification Card -->
+            <div class="row mt-3">
+                <!-- Card 1 -->
+                <div class="col-md-6">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Connectivity Features</h5>
+                            <p class="card-text">Wireless LAN: Intel Wi-Fi 6 AX201(2*2 ax)</p>
+                            <p class="card-text">Bluetooth: v5.2</p>
+                            <!-- Add more connectivity specifications here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dimensions Specification Card -->
+                <div class="col-md-6">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Dimensions</h5>
+                            <p class="card-text">Weight: 1.86 Kg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Features Specification Card -->
+            <div class="row mt-3">
+                <!-- Card 1 -->
+                <div class="col-md-6">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Additional Features</h5>
+                            <p class="card-text">Disk Drive: Not Available</p>
+                            <p class="card-text">Web Camera: HD type (30fps@728p)</p>
+                            <p class="card-text">Keyboard: Single Backlit Keyboard (Red)</p>
+                            <p class="card-text">Backlit Keyboard: No</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Warranty Specification Card -->
+                <div class="col-md-6">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Warranty</h5>
+                            <p class="card-text">Warranty Summary: 2 Year Carry-in Warranty</p>
+                            <p class="card-text">Warranty Service Type: Carry-in</p>
+                            <p class="card-text">Covered in Warranty: Part Failure</p>
+                            <p class="card-text">Not Covered in Warranty: Physical Damage, Burn, Liquid Spill</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </br>
+        <div class="container mt-4">
+            <div class="row">
+                <!-- Image 1 with description on the right -->
+                <div class="col-md-6">
+                    <img src="14.webp" alt="Image 1" class="img-fluid">
+                </div>
+                <!-- Image 2 with description on the right -->
+                <div class="col-md-6">
+                    <img src="15.webp" alt="Image 2" class="img-fluid">
+                </div>
+                <!-- Image 3 with description on the right -->
+                <div class="col-md-6">
+                    <img src="16.webp" alt="Image 3" class="img-fluid">
+                </div>
+                <!-- Image 4 with description on the right -->
+                <div class="col-md-6">
+                    <img src="17.webp" alt="Image 4" class="img-fluid">
+                </div>
+                <!-- Image 5 with description on the right -->
+                <div class="col-md-6">
+                    <img src="18.webp" alt="Image 5" class="img-fluid">
+                </div>
+                <!-- Image 6 with description on the right -->
+                <div class="col-md-6">
+                    <img src="19.webp" alt="Image 6" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        </br>
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-md-12 align-self-center"> <!-- Use col-md-12 for full width -->
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <p class="card-text"><Strong> System Memory</Strong></p>
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-light memory-btn active" data-memory="8GB">
+                                    <input type="radio" name="memoryOptions" id="memory8GB" autocomplete="off" checked>
+                                    <Strong>8 GB</Strong>
+                                </label>
+                                <label class="btn btn-light memory-btn" data-memory="16GB">
+                                    <input type="radio" name="memoryOptions" id="memory16GB" autocomplete="off">
+                                    <Strong>16 GB</Strong>
+                                </label>
+                            </div>
+                            </br>
+                            <p class="card-text"><Strong>SSD Capacity</Strong></p>
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-light ssd-btn active" data-ssd="256GB">
+                                    <input type="radio" name="ssdOptions" id="ssd256GB" autocomplete="off" checked>
+                                    <Strong>256 GB</Strong>
+                                </label>
+                                <label class="btn btn-light ssd-btn" data-ssd="512GB">
+                                    <input type="radio" name="ssdOptions" id="ssd512GB" autocomplete="off"><Strong>512
+                                        GB</Strong>
+                                </label>
+                            </div>
+                            </br>
+                            <!-- View Details button with click event -->
+                            <button class="btn btn-light btn-block" id="viewDetails"><strong>View
+                                    Details</strong></button>
+                            </br>
+                            <!-- Details section initially hidden -->
+                            <div id="detailsSection"
+                                style="display: none; font-size: 15px; padding-top: 10px; border-radius: 5px;">
+                                <p class="card-text"><strong>Delivery & Installation details</strong></p>
+                                <p><strong>This product doesn't require installation</strong></p>
+                                <p><strong>Shipping Charges For Assured Items</strong></p>
+                                <p><strong>Shipping charges are calculated based on the number of units, distance,
+                                        and delivery date.</strong></p>
+                                <p><strong>Delivery charges if applicable will be shown on the product page </strong>
+                                </p>
+                            </div>
+
+
+                            </br>
+
+                            <div id="buy-now">
+                                <!-- Display the calculated price here -->
+                                <p><strong>Price: <span id="productPrice">
+                                            <bold>₹59999</bold>
+                                        </span></strong></p>
+
+                            </div>
+                            <div class="" id="buy-now">
+                                <!-- Content of the "Buy Now" section goes here -->
+
+                                <!-- Buy Now button -->
+                                <a href="#" class="btn btn-light btn-lg btn-block text-left" data-toggle="modal"
+                                    data-target="#purchaseModal">
+                                    <bold><strong>Buy Now</strong></bold>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        </br>
+        <!-- Contact Section -->
+        <div class="container-fluid bg-light">
+            <section id="contact">
+                <div class="container">
+                    <h2 class="text-left">Contact</h2>
+                    <div class="row mt-4">
+                        <!-- First Row - Query and Email -->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Write your query here</h5>
+                                    <textarea id="query-email" placeholder="Write your query here"
+                                        class="form-control mb-3"></textarea>
+                                    <a href="mailto:chandugowda3811@gmail.com?subject=Query&body=" id="send-email"
+                                        class="btn btn-primary btn-block">Send Email</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Second Row - WhatsApp -->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">WhatsApp</h5>
+                                    <p class="card-text">Contact via WhatsApp:</p>
+                                    <a href="https://wa.me/+916362185293" target="_blank"
+                                        class="btn btn-success btn-block">WhatsApp</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-2" style="border-radius: 0;">
+        <p>&copy; 2023 CHANDU S GOWDA. All rights reserved.</p>
+    </footer>
+
+    <!-- Include Bootstrap and jQuery scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        document.getElementById("viewDetails").addEventListener("click", function () {
+            var detailsSection = document.getElementById("detailsSection");
+            if (detailsSection.style.display === "none" || detailsSection.style.display === "") {
+                detailsSection.style.display = "block";
+            } else {
+                detailsSection.style.display = "none";
+            }
+        });
+    </script>
+
+
+
+</body>
+
+</html>
